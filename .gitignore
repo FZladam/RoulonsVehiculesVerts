@@ -1,0 +1,13 @@
+# Fichiers compilés
+*.class
+
+#Config BlueJ
+package.bluej
+*.ctxt
+
+* Logs
+*.log
+
+#OS
+.DS_Store
+Thumbs.db
