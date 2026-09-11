@@ -1,84 +1,67 @@
-\#RoulonsVéhiculesVerts
+# Roulons Véhicules Verts
 
 
 
-Travail pratique universitaire en \*\***java**\*\* pour le cours \*\***INF1120 (Programmation I)**\*\* à l'UQAM.
+Travail pratique universitaire réalisé pour le cours **INF1120 Programmation I** à l'UQAM.
 
-Il s'agit d'un \*\***programme en java**\*\* qui simule la gestion et la facturation de véhicules verts (électriques et hybrides).
+Le but du projet est de créer un programme Java pour gérer la location et la facturation de véhicules électriques et hybrides.
 
+## Fonctionnalités
 
-
-
-
-\## Objectifs
+Le programme permet de :
 
 
+- consulter les véhicules disponibles.
 
-Le programme a été conçu pour :
+- louer un véhicule à un client..
 
-\- Gérer un inventaire de véhicules verts.
+- générer et enregistrer une facture. 
 
-\- Permettre la facturation de véhicules à des clients.
+- afficher des statistiques sur les locations.
 
-\- Générer des factures liées aux locations. 
+## Technologies utilisées
 
-\- Produire des statistiques simples sur les véhicules loués.
+- Java
+- Programmation orientée objet
+- Fichiers CSV
+- Tableaux et listes
 
+## Organisation du programme
 
+- **ApplicationPrincipale.java** : point d'entrée  du programme.
+- **Vehicule.java**, **VehiculeDisponible.java** et **VehiculeLoue.java** : représentent les véhicules et leur état.
+- **GestionVehiculesDisponibles.java** : gère l'inventaire des véhicules disponibles.
+- **Locataire.java** et **LocationVehicule.java** : gèrent les clients et les locations.
+- **Facture.java** et **ListeDesFactures.java** : créent et gèrent les factures.
+- **StatistiquesVehiculesLoues.java** : calcule les statistiques sur les véhicules loués.
+- **InventaireVehicules.csv** et **Factures.csv** : enregistrent les données du programmes.
 
+## Exécution
 
+Il faut avoir le JDK Java installé.
 
-\## Compétences acquises
+Pour compiler le programme :
 
+```bash
+javac *.java
+```
 
+Pour le lancer :
+```bash
+java ApplicationPrincipale
+```
 
-Ce projet m'a permis de mettre en pratique :
+Les fichiers CSV doivent rester dans le même dossier que les fichiers Java.
 
-\- La programmation orientée objet en java.
+## Ce que j'ai appris
 
-\- La gestion de classes et d'objets dans un projet structuré.
+Avec ce projet, j'ai mieux compris comment utiliser les classes et les objets en Java. J'ai aussi appris à séparer le programme en plusieurs fichiers, à manipuler des tableaux et à enregistrer des données dans des fichiers CSV.
 
-\- La manipulation de tableaux et de listes.
+## Auteur
 
-\- L'implémentation d'une logique de facturation.
+**Fatima Zahra Ladam**
 
-
-
-\## Organisation du programme
-
-
-
--\*\***ApplicationPrincipale.java**\*\* : point d'entrée  du programme.
-
--\*\***Facture.java / ListeDesFactures.java**\*\* : création et gestion des factures.
-
--\*\***Vehicule.java / VehiculeDisponible.java / VehiculeLoue.java**\*\* : définition des véhicules et suivi de leur état.
-
--\*\***GestionVehiculesDisponibles.java**\*\* : gestion des informations sur les clients.
-
--\*\***StatistiquesVehiculesLoues.java**\*\* : génération de statistiques.
-
-
-
-\## Fonctionnalités
-
-
-
--Louer un véhicule à un client.
-
--Générer une facture.
-
--Consulter la liste des véhicules disponibles.
-
--Afficher des statistiques sur les locations.
-
-
-
-\## Auteur
-
-Projet réalisé par \*\***Fatima Zahra Ladam**\*\*
-
-Etudiante au \*\* **Baccalauréat en informatique et génie logiciel, UQAM** \*\*
+Etudiante au baccalauréat en informatique et génie logiciel à l'UQAM
 
 
 
